@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body{
+  @apply w-screen h-fit
+}
+
+/* For Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional */
+body {
+  -ms-overflow-style: none;  /* IE */
+  scrollbar-width: none;     /* Firefox */
+}

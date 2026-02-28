@@ -14,7 +14,7 @@ export default function NavBar() {
     fetchAPI(search, 'user');
   }
   return (
-    <nav className="w-full h-16 bg-gray-100 rounded-md drop-shadow-md px-10 text-white flex items-center justify-between px-4">
+    <nav className="w-full mt-4 h-16 bg-gray-100 rounded-md drop-shadow-md px-10 text-white flex items-center justify-between px-4">
       <h1 className="relative text-2xl font-bold bg-gradient-to-r from-green-700 to-green-500 bg-clip-text text-transparent">
         Github-Profile
         <span className="absolute -top-1 pl-2 text-sm font-normal bg-gradient-to-r from-green-700 to-green-500 bg-clip-text">
